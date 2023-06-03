@@ -76,9 +76,14 @@ header{
   .testimonial .col:nth-child(3),
   .testimonial .col:nth-child(4) {
     margin-top: 4rem;
+  }  
+}
+@media only screen and (max-width: 710px)
+{
+  .protfolio-section img {
+    margin: 0rem;    
   }
 }
-
 @media only screen and (max-width: 480px){
   header{
     height: 75vh;
@@ -99,7 +104,7 @@ header{
     font-size: 1.5rem;
   }
   .protfolio-filter button{
-    font-size: 1.2rem;
+    font-size: .98rem;
   }
 }
 /* 20 video ses */
